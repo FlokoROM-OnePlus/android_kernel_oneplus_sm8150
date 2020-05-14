@@ -4720,7 +4720,7 @@ enum station_keepalive_method {
 #define CFG_5G_RSSI_THRESHOLD_OFFSET_NAME      "lookup_threshold_5g_offset"
 #define CFG_5G_RSSI_THRESHOLD_OFFSET_MIN       (-120)
 #define CFG_5G_RSSI_THRESHOLD_OFFSET_MAX       (120)
-#define CFG_5G_RSSI_THRESHOLD_OFFSET_DEFAULT   (0)
+#define CFG_5G_RSSI_THRESHOLD_OFFSET_DEFAULT   (15)
 
 #define CFG_DELAY_BEFORE_VDEV_STOP_NAME              "gDelayBeforeVdevStop"
 #define CFG_DELAY_BEFORE_VDEV_STOP_MIN               (2)
